@@ -1,0 +1,8 @@
+[configuration]
+
+entry_symbol = "gdcef_init"
+compatibility_minimum = "4.1"
+reloadable = true
+
+[libraries]
+windows.debug.x86_64 = "res://gdcef/build/src/Debug/gdcef.dll"
