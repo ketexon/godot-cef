@@ -14,8 +14,6 @@ using namespace godot;
 #include <include/cef_frame.h>
 #include <include/wrapper/cef_stream_resource_handler.h>
 
-#include "stb_image_write.h"
-
 GDCefClient *g_instance = nullptr;
 
 class GodotResourceProvider : public CefResourceManager::Provider

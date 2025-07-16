@@ -1,8 +1,6 @@
 set(GDCEF_SHARED_SOURCES
 	app.hpp app.cpp
 	client.hpp client.cpp
-	stb_image.h stb_image_write.h
-	stb.c
 	cef_server.hpp cef_server.cpp
 )
 
